@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register and Login</title>
+    <link rel="stylesheet" href="./assets/css/main1.css">
+</head>
+<body>
+    <div class="login">
+        <h1>LOGIN</h1>
+        <form action="" onsubmit="return loginCheck()">
+            <label for="login-email_id" class="login__label">E-mail:</label>
+            <input type="email" class="login__input" id="login-email_id" required name="email" placeholder="Enter e-mail">
+            <label for="login-pwd_id" class="login__label">Password:</label>
+            <input type="password" class="login__input" id="login-pwd_id" required name="pwd" placeholder="Enter password">
+            <div class="btn">
+                <button class="submit_btn" type="submit">Login</button>
+                <button class="reset_btn" type="reset">Clear</button>
+            </div>
+        </form>
+        <div class="ask">
+            <p>Do you have a account??</p>
+            <button class="js-register">Register Now</button>
+        </div>
+    </div>
+    <div class="register hidden-register">
+        <form action="" class="register__form" onsubmit="return addAccount()">
+            <h1>REGISTER</h1>
+            <label class="register__label" for="register-fullname_id">Fullname:</label>
+            <input class="register__input" type="text" id="register-fullname_id" name="fullname" required placeholder="Enter fullname">
+            <label class="register__label" for="register-age_id">Age:</label>
+            <input class="register__input" type="number" id="register-age_id" required name="age" placeholder="Enter age">
+            <label class="register__label" for="register-email_id">E-mail:</label>
+            <input class="register__input" type="email" id="register-email_id" required name="email" placeholder="Enter e-mail">
+            <label class="register__label" for="register-pwd_id">Password:</label>
+            <input class="register__input" type="password" id="register-pwd_id" required name="pwd" placeholder="Enter password">
+            <div class="btn">
+                <button class="submit_btn" type="submit">Register</button>
+                <button class="reset_btn" type="reset">Clear</button>
+                <button class="close-btn" type="button">Close</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="./assets/js/app1.js"></script>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Data</title>
+    <style>
+        *{
+            margin: 0; 
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container{
+            margin-top: 30px;
+        }
+
+        .table__stt,
+        .table__age{
+            padding: 8px 16px;
+        }
+
+        .table__name,
+        .table__pwd{
+            padding: 8px 75px;
+        }
+
+        .table__email{
+            padding: 8px 120px;
+        }
+
+        .container td{
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table border="1" cellpadding="5">
+            <thead>
+                <tr>
+                    <th class="table__stt">STT</th>
+                    <th class="table__name">Fullname</th>
+                    <th class="table__age">Age</th>
+                    <th class="table__email">E-mail</th>
+                </tr>
+            </thead>
+            <tbody id="result">
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="./assets/js/check.js"></script>
+</html>

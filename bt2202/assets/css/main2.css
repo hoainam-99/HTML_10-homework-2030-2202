@@ -1,0 +1,67 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, rgb(65, 88, 200) 0%, rgb(200, 80, 192) 50% , rgb(255, 204, 112) 100%);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 30px;
+}
+
+.container th{
+    font-size: 20px;
+}
+
+.container td{
+    padding: 4px 8px;
+    font-size: 18px;
+}
+
+.show-btn,
+.hide-btn,
+.logout-btn{
+    padding: 10px 24px;
+    margin: 16px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+.show-btn:hover,
+.hide-btn:hover,
+.logout-btn:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.show-btn{
+    background-color: rgb(90, 218, 218);
+}
+
+.hide-btn{
+    background-color: rgb(235, 180, 63);
+}
+
+.table__stt,
+.table__age{
+    padding: 8px 16px;
+}
+
+.table__name,
+.table__pwd{
+    padding: 8px 75px;
+}
+
+.table__email{
+    padding: 8px 120px;
+}
