@@ -50,6 +50,8 @@ function addAccount(){
     }
     if(t == 0){
         accountList.push(account)
+        alert('Bạn đã đăng ký thành công. Hãy đăng nhập để sử dụng')
+        register.classList.add('hidden-register')
     }
 
     saveLocalStorage()
