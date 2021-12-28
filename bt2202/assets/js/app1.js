@@ -68,7 +68,7 @@ function loginCheck(){
     openLocalStorage()
     for ( i = 0; i < accountList.length; i++){
         if(accountList[i].email == login.loginEmail && accountList[i].password == login.loginPwd){
-            window.location = 'http://127.0.0.1:5500/baitap/bt2202/show.html'
+            window.location = 'http://127.0.0.1:5500/bt2202/show.html'
             t2 = 1
         }
     }
