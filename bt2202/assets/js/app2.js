@@ -35,5 +35,5 @@ hideBtn.addEventListener('click', function(){
     result.innerHTML = ''
 })
 logoutBtn.addEventListener('click', function(){
-    window.location = 'http://127.0.0.1:5500/bt2202/index.html'
+    window.location = 'https://hoainam-99.github.io/HTML_10-homework-2030-2202/bt2202/index.html'
 })
